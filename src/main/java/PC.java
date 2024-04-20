@@ -3,6 +3,31 @@ public class PC {
     private Case computerCase;
     private Monitor monitor;
 
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
+    public void setMotherboard(Motherboard motherboard) {
+        this.motherboard = motherboard;
+    }
+
+    public Case getComputerCase() {
+        return computerCase;
+    }
+
+    public void setComputerCase(Case computerCase) {
+        this.computerCase = computerCase;
+    }
+
+    public Monitor getMonitor() {
+        return monitor;
+    }
+
+    public void setMonitor(Monitor monitor) {
+        this.monitor = monitor;
+    }
+
     public PC(Motherboard motherboard, Case computerCase, Monitor monitor){
         this.motherboard = motherboard;
         this.computerCase = computerCase;
